@@ -1,0 +1,32 @@
+{
+  "name": "mock-api-server",
+  "version": "1.0.0",
+  "description": "mock restful api server",
+  "main": "index.js",
+  "scripts": {
+    "start": "clear && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian271/node-mock-api-server.git"
+  },
+  "keywords": [
+    "mock",
+    "api",
+    "server",
+    "nodejs",
+    "node"
+  ],
+  "author": "adrian271",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian271/node-mock-api-server/issues"
+  },
+  "homepage": "https://github.com/adrian271/node-mock-api-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
